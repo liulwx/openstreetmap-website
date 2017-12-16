@@ -936,8 +936,8 @@ zh-CN:
       more_results: 更多结果
   layouts:
     project_name:
-      title: OpenStreetMap
-      h1: OpenStreetMap
+      title: 高精地图编辑系统 #OpenStreetMap
+      h1: 高精地图编辑系统 #OpenStreetMap
     logo:
       alt_text: OpenStreetMap 标志
     home: 返回家位置
@@ -952,26 +952,26 @@ zh-CN:
     export: 导出
     data: 数据
     export_data: 导出数据
-    gps_traces: GPS 轨迹
+    gps_traces: 数据上传 #GPS 轨迹
     gps_traces_tooltip: 管理 GPS 轨迹
     user_diaries: 用户日记
     user_diaries_tooltip: 查看用户日记
     edit_with: 使用 %{editor} 编辑
     tag_line: 自由的 Wiki 世界地图
-    intro_header: 欢迎访问 OpenStreetMap！
-    intro_text: OpenStreetMap 是一个世界地图，由像您一样的人们所构筑，可依据开放许可协议自由使用。
+    intro_header: 欢迎使用高精地图编辑系统 #欢迎访问 OpenStreetMap！
+    intro_text: 车道模型编辑、自动数据检查 #OpenStreetMap 是一个世界地图，由像您一样的人们所构筑，可依据开放许可协议自由使用。
     intro_2_create_account: 创建用户账户
-    partners_html: 主机由%{ucl}、%{bytemark}、%{ic}，以及其他%{partners}所支持。
-    partners_ucl: 伦敦大学学院
-    partners_ic: 伦敦帝国学院
-    partners_bytemark: Bytemark主机
-    partners_partners: 合作伙伴
+    partners_html: Momenta自动驾驶地图 #主机由%{ucl}、%{bytemark}和%{ic}，以及其他%{partners}所支持。
+    partners_ucl: #伦敦大学学院
+    partners_ic: #伦敦帝国学院
+    partners_bytemark: #Bytemark主机
+    partners_partners: #合作伙伴
     osm_offline: 由于正在进行基本的数据库维护工作，OpenStreetMap 数据库目前处于脱机状态。
     osm_read_only: 由于正在进行基本的数据库维护工作，OpenStreetMap 数据库目前处于只读模式。
     donate: 通过给硬件升级基金%{link}支持 OpenStreetMap。
     help: 帮助
     about: 关于
-    copyright: 著作权
+    copyright: 版权 #著作权
     community: 社区
     community_blogs: 社区博客
     community_blogs_title: OpenStreetMap 社区成员的博客

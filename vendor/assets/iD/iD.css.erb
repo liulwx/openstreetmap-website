@@ -1843,37 +1843,37 @@ path.fill.tag-amenity-shelter {
 .map-in-map,
 #map {
     cursor: auto; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-grab.png") %>) 9 9, auto; /* FF */
+    cursor: url(img/cursor-grab.png) 9 9, auto; /* FF */
 }
 
 .mode-browse .point,
 .mode-select .point {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-point.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-point.png), pointer; /* FF */
 }
 
 .mode-select .vertex,
 .mode-browse .vertex {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-vertex.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-vertex.png), pointer; /* FF */
 }
 
 .mode-browse .line,
 .mode-select .line {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-line.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-line.png), pointer; /* FF */
 }
 
 .mode-select .area,
 .mode-browse .area {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-area.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-area.png), pointer; /* FF */
 }
 
 .mode-select .midpoint,
 .mode-browse .midpoint {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-split.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-split.png), pointer; /* FF */
 }
 
 .mode-select .behavior-multiselect .point,
@@ -1881,12 +1881,12 @@ path.fill.tag-amenity-shelter {
 .mode-select .behavior-multiselect .line,
 .mode-select .behavior-multiselect .area {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-add.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-add.png), pointer; /* FF */
 }
 
 .mode-select .behavior-multiselect .selected {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-remove.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-remove.png), pointer; /* FF */
 }
 
 #map .point:active,
@@ -1896,7 +1896,7 @@ path.fill.tag-amenity-shelter {
 #map .midpoint:active,
 #map .mode-select .selected {
     cursor: pointer; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-select-acting.png") %>), pointer; /* FF */
+    cursor: url(img/cursor-select-acting.png), pointer; /* FF */
 }
 
 .mode-draw-line #map,
@@ -1905,7 +1905,7 @@ path.fill.tag-amenity-shelter {
 .mode-add-area  #map,
 .mode-drag-node #map {
     cursor: crosshair; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-draw.png") %>) 9 9, crosshair; /* FF */
+    cursor: url(img/cursor-draw.png) 9 9, crosshair; /* FF */
 }
 
 .mode-draw-line .way.hover,
@@ -1914,7 +1914,7 @@ path.fill.tag-amenity-shelter {
 .mode-add-area  .way.hover,
 .mode-drag-node .way.hover {
     cursor: crosshair; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-draw-connect-line.png") %>) 9 9, crosshair; /* FF */
+    cursor: url(img/cursor-draw-connect-line.png) 9 9, crosshair; /* FF */
 }
 
 .mode-draw-line .vertex.hover,
@@ -1923,7 +1923,7 @@ path.fill.tag-amenity-shelter {
 .mode-add-area  .vertex.hover,
 .mode-drag-node .vertex.hover {
     cursor: crosshair; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-draw-connect-vertex.png") %>) 9 9, crosshair; /* FF */
+    cursor: url(img/cursor-draw-connect-vertex.png) 9 9, crosshair; /* FF */
 }
 
 .mode-add-point #map,
@@ -1936,7 +1936,7 @@ path.fill.tag-amenity-shelter {
 .mode-select.lasso .vertex,
 .mode-select.lasso .midpoint {
     cursor: crosshair; /* Opera */
-    cursor: url(<%= asset_path("iD/img/cursor-draw.png") %>) 9 9, crosshair; /* FF */
+    cursor: url(img/cursor-draw.png) 9 9, crosshair; /* FF */
 }
 
 .turn rect,
@@ -2134,7 +2134,7 @@ path.fill.tag-amenity-shelter {
 .osc-wrapper {
     position: relative;
     background-color: #000;
-    background-image: url(<%= asset_path("iD/img/loader-black.gif") %>);
+    background-image: url(img/loader-black.gif);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -2175,6 +2175,14 @@ path.fill.tag-amenity-shelter {
 .osc-controls button:focus {
     background: rgba(0,0,0,0.85);
     color: #fff;
+}
+
+.osc-image-wrap {
+    transform-origin:0 0;
+    -ms-transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+    -moz-transform-origin:0 0;
+    -o-transform-origin:0 0;
 }
 /* Fill Styles */
 
@@ -2621,7 +2629,7 @@ li.hide {
 }
 
 .loading {
-    background: url(<%= asset_path("iD/img/loader_bg.gif") %>);
+    background: url(img/loader_bg.gif);
     background-size:5px 5px;
 }
 
@@ -4281,7 +4289,7 @@ button.minor.tag-reference-loading {
 }
 
 .tag-reference-loading .icon {
-    background-image: url(<%= asset_path("iD/img/mini-loader.gif") %>);
+    background-image: url(img/mini-loader.gif);
     background-position: 0 0;
 }
 
@@ -4726,7 +4734,7 @@ div.full-screen > button:hover {
 }
 
 .opacity-options {
-    background: url(<%= asset_path("iD/img/background-pattern-opacity.png") %>) 0 0 repeat;
+    background: url(img/background-pattern-opacity.png) 0 0 repeat;
     height: 20px;
     width: 82px;
     position: absolute;
@@ -4852,12 +4860,26 @@ div.full-screen > button:hover {
 }
 
 .help-wrap .left-content .body p code {
-    padding:2px 4px;
-    background:#eee;
+    padding: 3px 4px;
+    font-size: 12px;
+    color: #555;
+    vertical-align: baseline;
+    background-color: #f6f6f6;
+    border: solid 1px #ccc;
+    margin: 0 2px;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.help-wrap .left-content .icon.pre-text {
+    vertical-align: text-top;
+    margin-right: 0;
+    margin-left: 0;
+    display: inline-block;
 }
 
 .help-wrap .toc {
-    /* This is two columns, 41.66666 x .4 = 16.6666 */
     width:40%;
     float:right;
     margin-left: 20px;
@@ -4868,7 +4890,7 @@ div.full-screen > button:hover {
 .help-wrap .toc li a,
 .help-wrap .nav a {
     display: block;
-    border: 1px solid #CCC;
+    border: 1px solid #ccc;
     padding: 5px 10px;
 }
 
@@ -4882,7 +4904,7 @@ div.full-screen > button:hover {
 }
 
 .help-wrap .toc li a.selected {
-    background: #E8EBFF;
+    background: #e8ebff;
 }
 
 .help-wrap .toc li:first-child a {
@@ -4890,7 +4912,7 @@ div.full-screen > button:hover {
 }
 
 .help-wrap .toc li:nth-last-child(3) a {
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #ccc;
     border-radius: 0 0 4px 4px
 }
 
@@ -4963,7 +4985,7 @@ img.tile {
     padding: 5px;
     border-radius: 3px;
     z-index: 2;
-    margin-left: -50px;
+    margin-left: -70px;
     margin-top: -20px;
 
     transform-origin:0 0;
@@ -5184,6 +5206,12 @@ img.tile-removing {
     position: relative;
 }
 
+.panel-content li span {
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0 8px;
+}
+
 .panel-content .button {
     display: inline-block;
     background: #7092ff;
@@ -5199,11 +5227,11 @@ img.tile-removing {
 }
 
 .panel-content-history .links a {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 [dir='rtl'] .panel-content-history .links a {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .panel-content-history .view-history-on-osm {
@@ -5277,13 +5305,13 @@ img.tile-removing {
     margin: 0 3px;
 }
 
-
 #footer {
     pointer-events: all;
     display: block;
     height: 30px;
 }
 
+/* footer flash message */
 
 #flash-wrap {
     display: flex;
@@ -5296,7 +5324,7 @@ img.tile-removing {
     left: 0;
 }
 
-#flash-wrap .content {
+.flash-content {
     display: flex;
     flex: 1 0 auto;
     flex-flow: row nowrap;
@@ -5305,15 +5333,38 @@ img.tile-removing {
     height: 30px;
 }
 
-
-#flash-wrap svg.operation-icon {
+.flash-icon {
     flex: 0 0 auto;
     width: 20px;
     height: 20px;
     margin: 0 8px;
 }
 
-#flash-wrap div.operation-tip {
+.flash-icon circle {
+    fill: #eee;
+}
+.flash-icon.disabled circle {
+    cursor: auto;
+    fill: rgba(255,255,255,0.7);
+}
+
+.flash-icon use {
+    color: #222;
+}
+.flash-icon.disabled use {
+    color: rgba(32,32,32,0.7);
+}
+
+.flash-icon.operation use {
+    fill: #222;
+    color: #79f;
+}
+.flash-icon.operation.disabled use {
+    fill: rgba(32,32,32,0.7);
+    color: rgba(40,40,40,0.7);
+}
+
+.flash-text {
     flex: 1 1 auto;
 }
 
@@ -5342,6 +5393,8 @@ img.tile-removing {
     -webkit-transition: bottom 75ms linear;
 }
 
+
+/* footer scale */
 
 #scale-block {
     vertical-align: bottom;
@@ -5727,11 +5780,11 @@ img.tile-removing {
     box-shadow: inset 0 -1px 0 #bbb;
 }
 
-.modal-shortcuts .shortcut-keys svg.mouseclick use.left {
+svg.mouseclick use.left {
     fill: rgba(112, 146, 255, 1);
     color: rgba(112, 146, 255, 0);
 }
-.modal-shortcuts .shortcut-keys svg.mouseclick use.right {
+svg.mouseclick use.right {
     fill: rgba(112, 146, 255, 0);
     color: rgba(112, 146, 255, 1);
 }
