@@ -1228,7 +1228,7 @@
                     "name": "Land Use Features"
                 },
                 "category-lane": {
-                    "name": "Road Lanes"
+                    "name": "Lane"
                 },
                 "category-natural-area": {
                     "name": "Natural Features"
@@ -1253,6 +1253,9 @@
                 },
                 "category-route": {
                     "name": "Route Features"
+                },
+                "category-traffic_sign": {
+                    "name": "Traffic Signs"
                 },
                 "category-water-area": {
                     "name": "Water Features"
@@ -1862,9 +1865,6 @@
                     "label": "Type"
                 },
                 "landuse": {
-                    "label": "Type"
-                },
-                "lane": {
                     "label": "Type"
                 },
                 "lanes": {
@@ -3931,40 +3931,12 @@
                     "name": "Yield Sign",
                     "terms": "give way,yield,sign"
                 },
+                "highway/lane-centerline": {
+                    "name": "lane-centerline",
+                    "terms": ""
+                },
                 "highway/lane": {
                     "name": "Road lane",
-                    "terms": ""
-                },
-                "highway/lane/white-dash-double": {
-                    "name": "lane-white-dash-double",
-                    "terms": ""
-                },
-                "highway/lane/white-dash": {
-                    "name": "lane-white-dash",
-                    "terms": ""
-                },
-                "highway/lane/white-solid-double": {
-                    "name": "lane-white-solid-double",
-                    "terms": ""
-                },
-                "highway/lane/white-solid": {
-                    "name": "lane-white-solid",
-                    "terms": ""
-                },
-                "highway/lane/yellow-dash": {
-                    "name": "lane-yellow-dash",
-                    "terms": ""
-                },
-                "highway/lane/yellow-solid-dash": {
-                    "name": "lane-yellow-solid-dash",
-                    "terms": ""
-                },
-                "highway/lane/yellow-solid-double": {
-                    "name": "lane-yellow-solid-double",
-                    "terms": ""
-                },
-                "highway/lane/yellow-solid": {
-                    "name": "lane-yellow-solid",
                     "terms": ""
                 },
                 "highway/living_street": {
@@ -4113,6 +4085,42 @@
                 },
                 "highway/unclassified": {
                     "name": "Minor/Unclassified Road",
+                    "terms": ""
+                },
+                "highway/white-dash-double": {
+                    "name": "lane-white-dash-double",
+                    "terms": ""
+                },
+                "highway/white-dash": {
+                    "name": "lane-white-dash",
+                    "terms": ""
+                },
+                "highway/white-solid-double": {
+                    "name": "lane-white-solid-double",
+                    "terms": ""
+                },
+                "highway/white-solid": {
+                    "name": "lane-white-solid",
+                    "terms": ""
+                },
+                "highway/yellow-dash-double": {
+                    "name": "lane-yellow-dash-double",
+                    "terms": ""
+                },
+                "highway/yellow-dash": {
+                    "name": "lane-yellow-dash",
+                    "terms": ""
+                },
+                "highway/yellow-solid-dash": {
+                    "name": "lane-yellow-solid-dash",
+                    "terms": ""
+                },
+                "highway/yellow-solid-double": {
+                    "name": "lane-yellow-solid-double",
+                    "terms": ""
+                },
+                "highway/yellow-solid": {
+                    "name": "lane-yellow-solid",
                     "terms": ""
                 },
                 "historic": {
@@ -6059,6 +6067,66 @@
                     "name": "Speed Table",
                     "terms": "flat top,hump,speed,slow"
                 },
+                "traffic_sign/prohibit_long_time_stop": {
+                    "name": "prohibit long time stop",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_10": {
+                    "name": "speed limit 10km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_100": {
+                    "name": "speed limit 100km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_110": {
+                    "name": "speed limit 110km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_120": {
+                    "name": "speed limit 120km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_20": {
+                    "name": "speed limit 20km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_30": {
+                    "name": "speed limit 30km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_40": {
+                    "name": "speed limit 40km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_5": {
+                    "name": "speed limit 5km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_50": {
+                    "name": "speed limit 50km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_60": {
+                    "name": "speed limit 60km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_70": {
+                    "name": "speed limit 70km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_80": {
+                    "name": "speed limit 80km/h",
+                    "terms": ""
+                },
+                "traffic_sign/speed_limit_90": {
+                    "name": "speed limit 90km/h",
+                    "terms": ""
+                },
+                "traffic_sign/traffic_sign": {
+                    "name": "traffic sign",
+                    "terms": ""
+                },
                 "type/multipolygon": {
                     "name": "Multipolygon",
                     "terms": ""
@@ -6069,6 +6137,10 @@
                 },
                 "type/boundary/administrative": {
                     "name": "Administrative Boundary",
+                    "terms": ""
+                },
+                "type/lane_group": {
+                    "name": "lane group",
                     "terms": ""
                 },
                 "type/restriction": {
